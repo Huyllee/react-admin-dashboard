@@ -27,7 +27,7 @@ function App() {
           <main className="content">
             <Navbar />
             <Routes>
-              {/* <Route path="/" Component={<Dashboard />} /> */}
+              <Route path="/" element={<Dashboard />} />
               {/* <Route path="/team" Component={<Team />} />
               <Route path="/invoices" Component={<Invoices />} />
               <Route path="/contacts" Component={<Contacts />} />
