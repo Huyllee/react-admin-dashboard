@@ -4,9 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./pages/public/Navbar";
 import Sidebar from "./pages/public/Sidebar";
 import Dashboard from "./pages/dashboard";
-// import Team from "./pages/team";
+import Team from "./pages/team";
 // import Invoices from "./pages/invoices";
-// import Contacts from "./pages/contacts";
+import Contacts from "./pages/contacts";
 // import Bar from "./pages/bar";
 // import Form from "./pages/form";
 // import Line from "./pages/line";
@@ -28,16 +28,16 @@ function App() {
             <Navbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              {/* <Route path="/team" Component={<Team />} />
-              <Route path="/invoices" Component={<Invoices />} />
-              <Route path="/contacts" Component={<Contacts />} />
-              <Route path="/bar" Component={<Bar />} />
-              <Route path="/form" Component={<Form />} />
-              <Route path="/line" Component={<Line />} />
-              <Route path="/pie" Component={<Pie />} />
-              <Route path="/faq" Component={<FAQ />} />
-              <Route path="/geography" Component={<Geography />} />
-              <Route path="/calendar" Component={<Calendar />} /> */}
+              <Route path="/team" element={<Team />} />
+              {/* <Route path="/invoices" element={<Invoices />} /> */}
+              <Route path="/contacts" element={<Contacts />} />
+              {/* <Route path="/bar" element={<Bar />} />
+              <Route path="/form" element={<Form />} />
+              <Route path="/line" element={<Line />} />
+              <Route path="/pie" element={<Pie />} />
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/geography" element={<Geography />} />
+              <Route path="/calendar" element={<Calendar />} /> */}
             </Routes>
           </main>
         </div>
