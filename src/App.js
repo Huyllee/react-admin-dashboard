@@ -12,7 +12,7 @@ import Form from "./pages/form";
 import Line from "./pages/line";
 import Pie from "./pages/pie";
 import FAQ from "./pages/faq";
-// import Geography from "./pages/geography";
+import Geography from "./pages/geography";
 import Calendar from "./pages/calendar";
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
               <Route path="/line" element={<Line />} />
               <Route path="/pie" element={<Pie />} />
               <Route path="/faq" element={<FAQ />} />
-              {/* <Route path="/geography" element={<Geography />} /> */}
+              <Route path="/geography" element={<Geography />} />
               <Route path="/calendar" element={<Calendar />} />
             </Routes>
           </main>
