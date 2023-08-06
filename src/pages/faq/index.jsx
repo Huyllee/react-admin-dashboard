@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, useTheme } from "@mui/material";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { tokens } from "../../theme";
 import Header from "../../components/Header";
 import FAQItem from "../../components/FAQItem";
