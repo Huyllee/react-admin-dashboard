@@ -5,7 +5,7 @@ import Navbar from "./pages/public/Navbar";
 import Sidebar from "./pages/public/Sidebar";
 import Dashboard from "./pages/dashboard";
 import Team from "./pages/team";
-// import Invoices from "./pages/invoices";
+import Invoices from "./pages/invoices";
 import Contacts from "./pages/contacts";
 // import Bar from "./pages/bar";
 // import Form from "./pages/form";
@@ -29,7 +29,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
-              {/* <Route path="/invoices" element={<Invoices />} /> */}
+              <Route path="/invoices" element={<Invoices />} />
               <Route path="/contacts" element={<Contacts />} />
               {/* <Route path="/bar" element={<Bar />} />
               <Route path="/form" element={<Form />} />
